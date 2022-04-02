@@ -1,2 +1,17 @@
 # Capstone
-This was my team capstone project .
+ABSTRACT:
+ Booking cancellations have a momentous impact on the hospitality industry, as regards to demand management. In order to diminish the influence of cancellations, hotels apply severe cancellation policies and tactics, that may have negative results on the hotel’s prestige and therefore its revenue. To minimize the impact of booking cancellations and improve the functionality of the hotel, a machine learning based model was developed. By using a dataset of a 4-stars hotel and approaching cancellation prediction as a supervised anomaly detection concept, it is exhibited that it is possible to develop a predicting machine learning model to forecast booking cancellations. Results give the opportunity to the hotel manager to accurately predict demand through cancellations, produce improved forecasts and define better overbooking strategies.
+ 
+ Introduction to Domain :
+The hospitality industry is a broad category of fields within the service industry that includes lodging, food and drink service, event planning, theme parks, travel and tourism. It includes hotels, tourism agencies, restaurants and bars. Hospitality is the relationship between a guest and a host, wherein the host receives the guest with some amount of goodwill, including the reception and entertainment of guests, visitors, or strangers. 
+
+					Forecast demand in long term, should be treated as a regression problem because it will most likely build a prediction model based on historic cancellation rates and not on bookings. By contrast, to determine a more accurate forecast, one should forecast demand in the short-to-midterm and view it as a classification prediction problem.
+					Acting on bookings marked as having a high probably of being canceled can go from offering hotel services to discounts in certain services or entrances to local amusement parks. These actions could mitigate booking cancellations and therefore reduce the hotel’s risk. These actions generate costs for the hotel, but by reducing the need to overbook, or at least, by enabling a better overbooking policy, the costs related to cancellations.
+
+Business problem:
+In the hospitality industry, the cancellation of bookings has a big influence on decisions regarding demand management. Booking cancellations have a direct effect on the output of accurate estimates, which is a crucial fact in terms of revenue management. In order to minimize the impact of cancellations, hotels apply strict cancellation policies and overbooking tactics that ultimately adversely affect the hotel's revenue and reputation. On the other hand, overbooking allows hotels to question the quality of service, which can lead to bad experience for the guest and have a negative impact on both the revenue and the credibility of the hotel.
+
+Need for this study:
+The aim of this study is, by the perspective of anomaly detection concept to build a machine learning model to identify the bookings that have high probability to be canceled, so our partner business can take measures to secure the bookings. Successful bookings are also identified as well as the cancellations, in order to take a step forward and also improve the sales pipeline. In addition to that, this paper covers an extensive literature work, regarding related work on booking cancellation and anomaly detection research. It also identifies the features of a hotel customer database that contribute to predicting booking cancellations. Finally, it demonstrates how data science can be applied to forecast cancellation of bookings within the context of hotel demand and revenue management. 
+
+
