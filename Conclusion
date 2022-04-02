@@ -1,0 +1,40 @@
+Conclusion:
+
+1.Tuned XGB model has the best accuracy among all the algorithm that we tried:
+From all the evaluation matrix to predict hotel cancellation classification case, we see that Tuned XGB model has the best accuracy when it comes to predicting hotel cancellation based on certain features (85.82%)			
+
+2.Reservation Status Column:
+
+Reservation Status have 1.00 Association Value with the Target, because of the reservation status will tell whether the booking has been canceled, no show or checkout, using this column to build  a model is prohibited because you wont be able to predict future booking, since the future booking still doesn’t have it status yet.
+
+3.Overfitting :
+
+For the base model we see that there are only 2 algorithms that doesn’t have an overfitting condition
+
+After Hyperparameter Tuning on all algorithm all of the algorithm don’t have an overfitting condition, and after hyperparameter tuning
+
+4.Using Accuracy as the Primary Evaluation Metrics:
+	
+The first reason why accuracy is used as the evaluation metric here because we have somehow a balance data 63% confirmed booking and 37% canceled booking in this case our dataset is balance and hence using accuracy is acceptable in this case.
+
+In this case every class is equally important
+
+5.How this Model will Help Hotels?
+		
+This model will allow hotel managers / revenue manager to take actions on booking that’s identified as “potential	going to be canceled”, furthermore the development of these models should contribute to hotel revenue management.
+
+These prediction models enable hotel managers to mitigate revenue loss derived from booking cancellations and to mitigate the risks associated with overbooking. Booking cancellations models also allow hotel managers to implement less rigid cancellation policies, without increasing uncertainty. This has the potential to translate into more sales, since less rigid cancellation policies generate more bookings.				
+
+Limitations and Future Research:
+
+The machine learning model in this project implemented data from City and Resort Hotels in Portugal, which raise some question that further research will help to explain.
+
+Can a similar result obtained from hotel outside of portugal ?
+
+Can Model have a better result if more hotels are integrated into the machine learning modeling?
+
+Is the result only specific of the type of hotels integrated into this modeling?
+
+Situation Limitation
+All of this booking are recording during 2015 - 2017, however after 2017 we have a lot of situations going on, this model needs to be double checked for current situation whether a similar result obtained.
+
